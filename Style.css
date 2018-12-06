@@ -1,0 +1,1139 @@
+  .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
+.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
+.col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
+.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
+.col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
+.col-xl-auto {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%; }
+
+.col-auto {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: auto;
+  max-width: none; }
+
+.col-1 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 8.33333%;
+  flex: 0 0 8.33333%;
+  max-width: 8.33333%; }
+
+.col-2 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 16.66667%;
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%; }
+
+.col-3 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%; }
+
+.col-4 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 33.33333%;
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%; }
+
+.col-5 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 41.66667%;
+  flex: 0 0 41.66667%;
+  max-width: 41.66667%; }
+
+.col-6 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%; }
+
+.col-7 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 58.33333%;
+  flex: 0 0 58.33333%;
+  max-width: 58.33333%; }
+
+.col-8 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 66.66667%;
+  flex: 0 0 66.66667%;
+  max-width: 66.66667%; }
+
+.col-9 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 75%;
+  flex: 0 0 75%;
+  max-width: 75%; }
+
+.col-10 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 83.33333%;
+  flex: 0 0 83.33333%;
+  max-width: 83.33333%; }
+
+.col-11 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 91.66667%;
+  flex: 0 0 91.66667%;
+  max-width: 91.66667%; }
+
+.col-12 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	height: auto;
+	/*background-color: steelblue;*/
+}
+
+section
+{
+	display: block;
+	position: relative;
+}
+
+ 
+ 
+[class*="col-"]
+{
+	float: left;
+}
+
+.container
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	position: absolute;
+
+}
+
+.slide-show
+{
+	width: 100%;
+	height: auto;
+	position: absolute;
+}
+
+.container .slide
+{
+	display: none;
+}
+
+.container .efek-gelap
+{
+	width: 100%;
+	height: 63.7vw;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+}
+
+
+.container img
+{
+	width: 100%;
+	height: auto;
+	position: absolute;
+}
+
+.container .logo
+{
+	width: 20%;
+	/*height: 0px;*/
+	margin-left: 40%;
+	margin-top: 7%;
+}
+
+.container .logo img
+{
+	width: 20%;
+	height: auto;
+	position: absolute;
+	/*height: 20%;*/
+	/*margin-left: 40%;
+	margin-top: 7%;*/
+}
+
+.container .logo h4
+{
+	color: white;
+	position: absolute;
+	z-index: 2;
+	top: 17vw;
+	left: 34%;
+	/*font-style: "impact";*/
+	font-family: 'Permanent Marker', cursive;
+	font-size: 1.5vw;
+}
+
+.container .header
+{
+	width: 100%;
+	height: 8vw;
+	position: absolute;
+	z-index: 1;
+	margin-top: 30vw;
+	background: rgba(153, 204, 102, 0.8);
+}
+
+.container .header img
+{
+	/*width: 10%;*/
+	width: 10%;
+	height: 7vw;
+	margin-left: 5%;
+	margin-top: 0.5vw;
+}
+
+.navbar
+{
+	width: 80%;
+	height: 20%;
+	z-index: 1;
+	position: absolute;
+	background-color: none;
+	/*top: 10%;*/
+	/*left: 15%;*/
+	margin-left: 15%;
+}
+
+.navbar ul
+{
+	list-style-type: none;
+}
+
+/*@font-face
+{
+	font-family: 'Permanent Marker', cursive;
+	src:url('billabong.ttf');
+}*/
+
+.navbar ul li
+{
+	margin-left: 10%;
+	margin-top: 1vw;
+	vertical-align: "center";
+	float: left;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 2vw;
+	color: white;
+}
+
+.navbar ul li a
+{
+	display: block;
+	color: white;
+	text-decoration: none;
+	/*text-transform: unset;*/
+	transition: 0.3s;
+}
+
+.navbar ul li a:hover
+{
+	color: black;
+
+}
+
+.navbar ul li a.active
+{
+	color: black;
+}
+
+.bahasa
+{
+	position: absolute;
+	top: 47vw;
+	left: 74%;
+	z-index: 1;	
+}
+
+#ID 
+{
+	float: left;
+	/*position: absolute;*/
+	/*margin-top: 49%;
+	margin-left: 74%;*/
+	z-index: 1;
+	font-size: 1.5vw;
+	color: white;
+}
+
+#ID a
+{
+	text-decoration: none;
+	display: block;
+	color: white;
+}
+
+#ID a:hover
+{
+	color: black;
+}
+
+#ID a.active
+{
+	color: black;
+}
+
+#atau
+{
+	/*position: absolute;*/
+	/*margin-top: 660px;
+	margin-left: 1030px;*/
+	float: left;
+	z-index: 1;
+	font-size: 1.5vw;
+	color: white;
+}
+
+#EN
+{
+	/*position: absolute;*/
+	/*margin-top: 660px;
+	margin-left: 1050px;*/
+	float: left;
+	z-index: 1;
+	font-size: 1.5vw;
+	color: white;
+}
+
+#EN a
+{
+	text-decoration: none;
+	display: block;
+	color: white;
+}
+
+#EN a:hover
+{
+	color: black;
+}
+
+#EN a.active
+{
+	color: black;
+}
+
+.container .logo .judul
+{
+	font-size: 6vw; 
+	z-index: 2;
+	position: absolute;
+	margin-top: 15vw;
+	margin-left: 1vw;
+	color: white;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.content-kuliner
+{
+	width: 100%;
+	height: auto;
+	position: relative;
+	z-index: 5;
+	margin-top: 57vw;
+}
+
+.content-kuliner a
+{
+	text-decoration: none;
+	color: green;
+}
+
+/*.content-kuliner #Gambar1
+{
+	border: 1px solid gray;
+	height: 20vw;
+	margin-top: 5vw;
+}*/
+
+.content-kuliner #Gambar1 img
+{
+	width: 30%;
+	height: 20vw;
+	position: absolute;
+	margin: 4vw;
+}
+
+.content-kuliner #Gambar2 img
+{
+	width: 30%;
+	height: 23vw;
+	position: absolute;
+	margin: 4vw;
+	margin-top: 30vw;
+}
+
+.content-kuliner #Gambar3 img
+{
+	width: 30%;
+	height: 23vw;
+	position: absolute;
+	margin: 4vw;
+	margin-top: 59vw;
+}
+
+.content-kuliner #Gambar1 .isi-content
+{
+	width: 50vw;
+	height: 15vw;
+	position: absolute;
+	margin-left: 37vw;
+	margin-top: 4vw;
+	font-family: 'Roboto', sans-serif;
+}
+
+.isi-content p
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5vw;
+}
+
+.content-kuliner #Gambar2 .isi-content
+{
+	width: 50vw;
+	position: absolute;
+	margin-left: 37vw;
+	margin-top: 30vw;
+	font-family: 'Roboto', sans-serif;
+}
+
+.content-kuliner #Gambar3 .isi-content
+{
+	width: 50vw;
+	position: absolute;
+	margin-left: 37vw;
+	margin-top: 59vw;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.berita
+{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: 1;
+	top: 57vw;
+	background: rgba(76,80,180,0.9);
+}
+
+.berita p
+{
+	font-family: arial;
+	color: white;
+	font-size: 1.5vw;
+	margin: 1vw;
+}
+
+.top-content
+{
+	width: 100%;
+	height: 4vw;
+	position: absolute;
+	z-index: 1;
+	top: 64vw;
+	background: white;
+}
+
+.top-content h2
+{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 3vw;
+	margin-top: 0vw;
+
+}
+
+.Destinasi
+{
+	width: 100%;
+	height: 45vw;
+	position: relative;
+	z-index: 1;
+	margin-top: 68vw;
+/*	background: rgba(0,0,0,0.9);*/
+}
+
+.Destinasi #content1
+{
+	width: 100%;
+	height: 50%;
+	position: relative;
+	z-index: 2;
+	background-color: none;
+}
+
+.Destinasi #content1 #deskripsi
+{
+	width: 25%;
+	height: 100%;
+	background-color: rgb(77, 77, 77);
+	z-index: 3;
+	position: absolute;
+	margin-left: 50%;
+}
+
+.Destinasi #content1 #deskripsi p
+{
+	color: white;
+	text-align: left;
+	font-size: 1.2vw;
+	margin: 1vw;
+	margin-top: 2vw;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	position: absolute;
+}
+
+.Destinasi #content1 #deskripsi a 
+{
+	text-decoration: none;
+}
+
+.Destinasi #content2 #deskripsi1 a 
+{
+	text-decoration: none;
+}
+
+.Destinasi #content1 #deskripsi h2
+{
+	color: white;
+	text-align: right;
+	font-size: 1.5vw;
+	margin: 0.5vw;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.Destinasi #content1 img
+{
+	width: 50%;
+	height: 100%;
+}
+
+.Destinasi #content2
+{
+	width: 100%;
+	height: 50%;
+	position: relative;
+	z-index: 2;
+	background: none;
+}
+
+.Destinasi #content2 img
+{
+	width: 50%;
+	height: 100%;
+	margin-right: 0;
+	margin-left: 50%;
+}
+
+.Destinasi #content2 #deskripsi1
+{
+	width: 25%;
+	height: 100%;
+	background-color: rgb(77, 77, 77);
+	z-index: 3;
+	position: absolute;
+	margin-left: 25%;
+}
+
+.Destinasi #content2 #deskripsi1 p
+{
+	color: white;
+	text-align: left;
+	font-size: 1.2vw;
+	margin: 1vw;
+	margin-top: 2vw;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	position: absolute;
+}
+
+.Destinasi #content2 #deskripsi1 h2
+{
+	color: white;
+	text-align: right;
+	font-size: 1.5vw;
+	margin: 0.5vw;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.top-content1
+{
+	width: 100%;
+	height: 4vw;
+	position: absolute;
+	z-index: 1;
+	background: white;
+}
+
+.top-content1 h2
+{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 3vw;
+	margin-top: 0vw;
+
+}
+
+.Event
+{
+	width: 100%;
+	height: 25vw;
+	position: relative;
+	z-index: 1;
+	margin-top: 4vw;
+	background: rgba(0,0,0,0.9);
+}
+
+.Event img
+{
+	width: 50%;
+	height: auto;
+	margin-left: 0;
+	position: absolute;
+}
+
+.Event #deskripsi2
+{
+	width: 25%;
+	height: 26vw;
+	background-color: rgb(77, 77, 77);
+	z-index: 3;
+	position: absolute;
+	margin-left: 50%;
+	margin-top: 0;
+
+}
+
+.Event #deskripsi2 p
+{
+	color: white;
+	text-align: left;
+	font-size: 1.2vw;
+	margin: 10px;
+	margin-top: 4vw;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	position: absolute;
+}
+
+.Event #deskripsi2 h2
+{
+	color: white;
+	text-align: right;
+	font-size: 1.5vw;
+	margin : 1vw;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.Event .Gambar2 img
+{
+	margin-left: 60%;
+	width: 40%;
+	height: auto;
+}
+
+.top-content2
+{
+	width: 100%;
+	height: 4vw;
+	position: absolute;
+	z-index: 1;
+	background: white;
+}
+
+.top-content2 h2
+{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 3vw;
+	margin-top: 0vw;
+}
+
+.Kuliner
+{
+	width: 100%;
+	height: 45vw;
+	position: relative;
+	z-index: 1;
+	margin-top: 4vw;
+	background: rgba(0,0,0,0.9);
+}
+
+.Kuliner #content1
+{
+	width: 100%;
+	height: 50%;
+	position: relative;
+	z-index: 2;
+	background-color: none;
+}
+
+.Kuliner #content1 img
+{
+	width: 30%;
+	height: 100%;
+	margin-left: 0;
+	position: absolute;
+}
+
+.Kuliner #content1 #deskripsi2
+{
+	width: 25%;
+	height: 100%;
+	background-color: rgb(77, 77, 77);
+	z-index: 3;
+	position: absolute;
+	margin-left: 25%;
+	margin-top: 0;
+}
+
+
+.Kuliner #content1 #deskripsi2 p
+{
+	color: white;
+	text-align: left;
+	font-size: 1.2vw;
+	z-index: 4;
+	margin: 1vw;
+	margin-top: 4vw;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	position: absolute;
+}
+
+.Kuliner #content1 #deskripsi2 h2
+{
+	color: white;
+	text-align: right;
+	font-size: 1.5vw;
+	margin:1vw;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+.Kuliner #content2
+{
+	width: 100%;
+	height: 50%;
+	position: relative;
+	z-index: 2;
+	background: none;
+}
+
+.Kuliner #content2 img
+{
+	width: 25%;
+	height: 100%;
+	margin-left: 75%;
+}
+
+.Kuliner #content2 #deskripsi2
+{
+	width: 25%;
+	height: 100%;
+	background-color: rgb(77, 77, 77);
+	z-index: 3;
+	position: absolute;
+	margin-left: 50%;
+	margin-top: 0;
+}
+
+.Kuliner #content2 #deskripsi2 p
+{
+	color: white;
+	text-align: left;
+	font-size: 1.2vw;
+	z-index: 4;
+	margin: 10px;
+	margin-top: 40px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	position: absolute;
+}
+
+.Kuliner #content2 #deskripsi2 h2
+{
+	color: white;
+	text-align: right;
+	font-size: 1.5vw;
+	margin: 1vw;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.garis
+{
+	border-radius: 5px;
+	width: 3px;
+	height: 18vw;
+	background-color: black;
+	z-index: 2;
+	position: absolute;
+	left: 50%;
+	top: 7%;
+
+}
+
+.footer1
+{	
+	margin-top: 90vw;
+	position: absolute;
+	width: 100%;
+	height: 22vw;
+	background: rgba(76,150,80,0.9);
+}
+
+.footer1 img
+{
+	width: 100%;
+	height: 22vw;																		
+	z-index: -1;
+	position: absolute;
+	left: 0;
+}
+
+.footer1 img.logo-hitam
+{
+	width: 27%;
+	height: auto;
+	z-index: 1;
+	left: 5%;
+	top: 20%;
+	position: absolute;
+}
+
+.footer1 .navbar 
+{
+	width: 40%;
+	height: auto;
+	z-index: 1;
+	position: absolute;
+	background-color: none;
+	top: 3vw;
+	left: 43vw;
+}
+
+.footer1.navbar ul
+{
+	/*list-style-type: none;*/
+}
+
+.footer1 .navbar ul li
+{
+	margin-left: 3vw;
+	/*margin-top: 0px;*/
+	float: left;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 1.5vw;
+	color: black;
+}
+
+.footer1 .navbar ul li a
+{
+	display: block;
+	color: black;
+	text-decoration: none;
+}
+
+.footer1 .navbar ul li a:hover
+{
+	color: black;
+
+}
+
+.sosmed li 
+{
+	float: left;
+	list-style: none;
+	margin-left: 70%;
+	margin-top: 10vw;
+	display: inline-block;
+	position: absolute;
+	font-family: "Comic Sans MS", cursive;
+}
+
+.sosmed li a
+{
+	text-decoration: none;
+	color: black;
+	margin-left: -1vw;
+	font-size: 1vw;
+}
+
+
+.sosmed li img 
+{
+	width: 3vw;
+	height: auto;
+	margin-left: -4vw;
+	margin-top: -1vw;
+	position: absolute;
+	z-index: 4;
+}
+
+.form
+{
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+form
+{
+	position: relative;
+}
+
+.background-form
+{
+	width: 100%;
+	height: auto;
+	position: absolute;
+}
+
+.logo-form
+{
+	width: 100%;
+	height: auto;
+	position: fixed;
+	margin-top: 0;
+	background: rgb(76,150,80);
+}
+
+.logo-form img
+{
+	width: 190px;
+	height: auto;
+	margin-left: 3vw;
+	margin-top: 1vw;
+	position: absolute;
+}
+
+.logo-form .navbar-form ul
+{
+	margin: 0;
+	list-style-type: none;
+	margin-left: 19vw;
+}
+
+.logo-form .navbar-form ul li
+{
+	float: left;
+	margin: 3vw;
+	margin-left: 5vw;
+	font-size: 2vw;
+	font-family: 'Permanent Marker', cursive;
+
+}
+
+.logo-form .navbar-form ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.logo-form .navbar-form ul li a:hover
+{
+	color: black;
+
+}
+
+.logo-form .navbar-form ul li a.active
+{
+	color: black;
+}
+
+.top-form
+{
+	width: 100%;
+	height: 10vw;
+	background: rgb(76,150,80);
+	margin-top: 140px;
+	position: absolute;
+}
+
+.kepala-form
+{
+	width: 30vw;
+	height: 4vw;
+	margin-top: 12.5vw;
+	margin-left: 32.99vw;
+	background-color: steelblue;
+	position: absolute;
+	border-radius: 4px;
+	z-index: -1;
+}
+
+.kepala-form h3
+{
+	color: white;
+	text-align: center;
+}
+
+.form-identitas 
+{
+	width: 30vw;
+	padding: 5px 20px 0;
+	background-color: rgb(76,150,80);
+	margin-top: 16vw;
+	margin-left: 450px;
+	border-radius: 4px;
+	position: absolute;
+	z-index: -1;
+}
+
+.form-identitas .group
+{
+	margin: 16px 0;
+}
+
+.form-identitas .group label,
+.form-identitas .group input 
+{
+	display: block;
+}
+
+.form-identitas .group label
+{
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+
+.form-identitas .group input[type="text"],
+.form-identitas .group input[type="date"],
+.form-identitas .group input[type="textarea"]
+{
+	width: 95%;
+	height: 30px;
+	padding: 0 10px;
+	background: #eeeeee;
+	border: none;
+	color: #808080;
+}
+
+.form-identitas .group input[list="Kategori"]
+{
+	width: 50%;
+	height: 30px;
+	padding: 0 10px;
+	background: #eeeeee;
+	border: none;
+	color: #808080;
+}
+
+.form-identitas .group input[list="Tanggal"]
+{
+	width: 10%;
+	height: 20px;
+	padding: 0 10px;
+	background: #eeeeee;
+	border: none;
+	color: #808080;
+}
+
+.form-identitas .group input[list="Bulan"]
+{
+	width: 30%;
+	height: 20px;
+	padding: 0 10px;
+	background: #eeeeee;
+	border: none;
+	color: #808080;
+}
+
+.form-identitas .group input[type="Radio"],
+.form-identitas .group input[type="checkbox"]
+{
+	float: left;
+}
+
+.footer
+{	
+	position: absolute;
+	width: 100%;
+	height: 22vw;
+	background: rgba(76,150,80,0.9);
+}
+
+.footer img
+{
+	width: 100%;
+	height: 22vw;																		
+	z-index: -1;
+	position: absolute;
+	left: 0;
+}
+
+.footer img.logo-hitam
+{
+	width: 27%;
+	height: auto;
+	z-index: 1;
+	left: 5%;
+	top: 20%;
+	position: absolute;
+}
+
+.footer .navbar 
+{
+	width: 40%;
+	height: auto;
+	z-index: 1;
+	position: absolute;
+	background-color: none;
+	top: 3vw;
+	left: 43vw;
+}
+
+.footer .navbar ul
+{
+	/*list-style-type: none;*/
+}
+
+.footer .navbar ul li
+{
+	margin-left: 3vw;
+	/*margin-top: 0px;*/
+	float: left;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 1.5vw;
+	color: black;
+}
+
+.footer .navbar ul li a
+{
+	display: block;
+	color: black;
+	text-decoration: none;
+}
+
+.footer .navbar ul li a:hover
+{
+	color: black;
+
+}
+
+.nav
+{
+	position: fixed;
+}

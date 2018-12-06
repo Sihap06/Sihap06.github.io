@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pariwista Jember</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<link href='https://fonts.googleapis.com/css?family=Condiment' rel='stylesheet'>
+	<link rel="icon" type="image/png" href="Gambar/logo-hitam.png">
+</head>
+<body>
+	<div class="container">
+		<img style="height: 56vw;" class="slide" src="Gambar/top-kuliner.jpg">	
+		<img style="height: 56vw;" class="slide" src="Gambar/Domino2.jpg">
+		<img style="height: 56vw;" class="slide" src="Gambar/Domino.jpg">
+		<img style="height: 56vw;" class="slide" src="Gambar/Kuliner.jpg">
+		<div style="height: 56vw;" class="efek-gelap"></div>
+		<div class="logo">
+			<img src="Gambar/logo-putih.png">
+			<font class="judul">Kuliner</font>
+		</div>
+		<div class="header">
+			<img src="Gambar/logo-hitam	.png">
+			<div class="navbar">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Destinasi.html">Destinasi</a></li>
+				<li><a href="Event.html">Event</a></li>
+				<li><a class="active" href="Kuliner.html">Kuliner</a></li>
+				<li><a href="Form.html">Form</a></li>
+			</ul>
+		</div>
+		</div>
+		<div class="content-kuliner">
+			<div id="Gambar1">
+				<img src="Gambar/Domino.jpg">
+				<div class="isi-content">
+					<h2>Ice Creame Domino</h2>
+					<hr>
+					<p>Lokasinya di jantung kota Jember tepatnya di Jalan Sultan Agung, Jember sangat gampang dicari karena dekat alun-alun kota dan dilalui semua angkutan kota. Rasa ice cream bermacam-macam mulai coklat, vanilla, buah, strawberry, blueberry, mocca, rainbow dan banyak lagi rasa lain sampai 40 jenis.</p>
+					<hr>
+					<a href="sub-kuliner.html">Read More ></a>
+				</div>
+			</div>
+			<div id="Gambar2">
+				<img src="Gambar/Bakso.jpg">
+				<div class="isi-content">
+					<h2>Bakso Kabut</h2>
+					<hr>
+					<p>Mungkin beberapa dari kita masih asing mendengar nama bakso kabut, seperti apa rasanya?
+					<br><br>
+					Bakso dengan campuran telur menyelimuti kulit bakso dengan isian daging sapi, sajikan cita rasa berbeda dari bakso pada umumnya. Ide tersebut tercetus dari sang pemiliki Juhariyah,</p>
+					<hr>
+					<a href="sub-kuliner1.html">Read More ></a>
+				</div>
+			</div>
+			<div id="Gambar3">
+				<img src="Gambar/Kuliner.jpg">
+				<div class="isi-content">
+					<h2>Suwar Suwir</h2>
+					<hr>
+					<p>
+						Suwar Suwir adalah sejenis makanan ringan yang terbuat dari bahan dasar tape. Suwar Suwir ini memiliki bentuk persegi panjang kecil dengan tampilan yang berwarna-warni. Sekilas makanan ini hampir mirip dengan Dodol, namun memiliki rasa dan tekstur yang sedikit berbeda. Suwar Suwir ini merupakan salah satu makanan khas dari Jember, Jawa Timur. Selain itu makanan ini juga sering dijadikan sebagai oleh-oleh bagi para wisatawan yang berkunjung ke sana.
+					</p>
+					<hr>
+					<a href="sub-kuliner2.html">Read More ></a>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 footer1">
+			<img class="logo-hitam" src="Gambar/logo-hitam.png">
+			<img src="Gambar/alun-alun.jpg">
+			<div class="navbar">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="Destinasi.html">Destinasi</a></li>
+					<li><a href="Event.html">Event</a></li>
+					<li><a href="Kuliner.html">Kuliner</a></li>
+				</ul>
+			</div>
+			<div class="sosmed">
+				<li><a href="#twitter"><img src="Gambar/twitter.png">@PariwisataJember</a></li>
+				<li style=" margin-top: 13vw"><a href=""><img style="width: 2.2vw; margin-top: 0.01vw; " src="Gambar/Facebook.png">Pariwisata_Jember</a></li>
+				<li style="margin-top: 16.5vw; left: 0.9vw"><a href=""><img src="Gambar/ig.png">@Jember_Pariwisata</a></li>
+			</div>
+			
+
+
+			<div class="garis""></div>
+		</div>
+	</div>
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+		    var i;
+		    var x = document.getElementsByClassName("slide");
+		    for (i = 0; i < x.length; i++) {
+		       x[i].style.display = "none";  
+		    }
+		    myIndex++;
+		    if (myIndex > x.length) {myIndex = 1}    
+		    x[myIndex-1].style.display = "block";  
+		    setTimeout(carousel, 2000); // Change image every 2 seconds
+		}
+	</script>
+</body>
+</html>

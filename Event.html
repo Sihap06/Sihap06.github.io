@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Pariwista Jember</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="icon" type="image/png" href="Gambar/logo-hitam.png">
+</head>
+<body>
+	<div class="col-12 container">
+		<img style="height: 56vw;" class="slide" src="Gambar/JFC.jpg">
+		<img style="height: 56vw;" class="slide" src="Gambar/JFC1.jpg">
+		<img style="height: 56vw;" class="slide" src="Gambar/bbj1.jpg">
+		<img style="height: 56vw;" class="slide" src="Gambar/Tajemtra.jpg">
+		<div style="height: 56vw;" class="efek-gelap"></div>
+		<div class="logo">
+			<font class="judul">Event</font>
+			<img src="Gambar/logo-putih.png" align="center">
+		</div>
+		<div class="col-12 header">
+			<img src="Gambar/logo-hitam.png">
+			<div class="col-12 navbar">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Destinasi.html">Destinasi</a></li>
+				<li><a class="active" href="Event.html">Event</a></li>
+				<li><a href="Kuliner.html">Kuliner</a></li>
+				<li><a href="Form.html">Form</a></li>
+			</ul>
+		</div>
+		</div>
+		<section>
+			<div class="content-kuliner">
+				<div id="Gambar1">
+					<img src="Gambar/JFC.jpg">
+					<div class="isi-content">
+						<h2>Jember Fashion Carnaval</h2>
+						<hr>
+						<p>Jember Fashion Carnival (JFC) 2018 tampil makin megah. Dengan tema Wonderful Archipelago Carnival Indonesia (WACI), JFC 2018 menjadi sajian mempesona.</p>
+						<br><br>
+						<hr>
+						<a href="sub-event.html">Read More ></a>
+					</div>
+				</div>
+
+				<div id="Gambar2">
+					<img src="Gambar/tajemtra.jpg">
+					<div class="isi-content">
+						<h2>Gerak Jalan Tanggul Jember Tradisional (Tajemtra)</h2>
+						<hr>
+						<p>Gerak jalan yang memiliki kepanjangan Tanggul Jember tradisional ini diadakan sejak tahun 1977. Peserta Tajemtra dikategorikan dalam 4 kelompok nomor lomba diantaranya beregu umum putra/putri, beregu pelajar putra/putri, perorangan putra usia 45 tahun keatas dan perorangan putri usia 40 tahun keatas.</p>
+						<br>
+						<hr>
+						<a href="sub-event1.html">Read More ></a>
+					</div>
+				</div>
+
+				<div id="Gambar3">
+					<img src="Gambar/bbj.jpg">
+					<div class="isi-content">
+						<h2>Bulan Berkunjung ke Jember</h2>
+						<hr>
+						<p>Bulan Berkunjung ke Jember, merupakan sebuah agenda tahunan yang di selenggarakan oleh pemerintah kabupaten jember. Acara bulan berkunjung ke jember ini di tujukan untuk memberikan tontonan ke masyarakat jember ataupun kepada wisatawan yang datang ke jember.</p>
+						<br>
+						<hr>
+						<a href="sub-event2.html">Read More ></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="col-12 footer1">
+			<img class="logo-hitam" src="Gambar/logo-hitam.png">
+			<img src="Gambar/alun-alun.jpg">
+			<div class="navbar">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="Destinasi.html">Destinasi</a></li>
+					<li><a href="Event.html">Event</a></li>
+					<li><a href="Kuliner.html">Kuliner</a></li>
+				</ul>
+			</div>
+			<div class="sosmed">
+				<li><a href="#twitter"><img src="Gambar/twitter.png">@PariwisataJember</a></li>
+				<li style=" margin-top: 13vw; left: 1.5vw"><a href=""><img style="width: 2.2vw; margin-top: 0.01vw; " src="Gambar/Facebook.png">Pariwisata_Jember</a></li>
+				<li style="margin-top: 16.5vw"><a href=""><img src="Gambar/ig.png">@Jember_Pariwisata</a></li>
+			</div>
+			
+
+
+			<div class="garis""></div>
+		</div>
+	</div>
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+		    var i;
+		    var x = document.getElementsByClassName("slide");
+		    for (i = 0; i < x.length; i++) {
+		       x[i].style.display = "none";  
+		    }
+		    myIndex++;
+		    if (myIndex > x.length) {myIndex = 1}    
+		    x[myIndex-1].style.display = "block";  
+		    setTimeout(carousel, 2000); // Change image every 2 seconds
+		}
+	</script>
+</body>
+</html>
